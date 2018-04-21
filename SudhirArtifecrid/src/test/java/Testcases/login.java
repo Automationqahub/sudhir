@@ -12,7 +12,7 @@ public class login {
 	@Test
 	public void validLogin()
 	{	
-		System.out.println("Hello");
+		System.out.println("Sudhir");
 		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\src\\main\\resources\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.get("http://localhost:100");
